@@ -1,0 +1,8 @@
+node_modules/
+.expo/
+.env
+*.env
+backend/node_modules/
+blitz-hack/node_modules/
+blitz-hack/blitz-hack2/node_modules/
+.expo-shared/
