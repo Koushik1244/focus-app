@@ -8,6 +8,4 @@ starknet = "2.16.1"
 
 [[target.starknet-contract]]
 sierra = true
-
-[dev-dependencies]
-snforge_std = "0.38.0"
+casm = true
