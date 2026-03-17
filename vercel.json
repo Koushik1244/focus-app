@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build:web",
+  "outputDirectory": "blitz-hack/dist",
+  "installCommand": "npm install"
+}

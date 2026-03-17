@@ -1,9 +1,16 @@
 {
-  "dependencies": {
-    "@react-navigation/elements": "^2.9.10",
-    "@react-navigation/native": "^7.1.33",
-    "@react-navigation/stack": "^7.8.5",
-    "react-native-safe-area-context": "^5.7.0",
-    "react-native-screens": "^4.24.0"
+  "name": "focusss",
+  "private": true,
+  "workspaces": [
+    "blitz-hack",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev:web",
+    "dev:web": "npm run web --workspace blitz-hack",
+    "dev:app": "npm run start --workspace blitz-hack",
+    "dev:backend": "npm run start --workspace backend",
+    "build:web": "npm run export:web --workspace blitz-hack",
+    "typecheck": "npm run typecheck --workspace blitz-hack"
   }
 }
